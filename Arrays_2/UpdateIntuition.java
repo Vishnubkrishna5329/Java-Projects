@@ -24,7 +24,7 @@ public class UpdateIntuition {
         int newKey = takeInput("Enter the new value for update", sc);
         printData("Actual array : ", A);
         updateValue(A, size, key, newKey);
-        printData("Expected array : ", A);
+        printData("Updated array : ", A);
         sc.close();
 
     }
@@ -40,8 +40,9 @@ public class UpdateIntuition {
         for (int i = 0; i < size; i++) {
             if (a[i] == key) {
                 a[i] = newKey;
-                break;
+                return;
             }
         }
+        System.out.println("Key not found in Array");
     }
 }

@@ -42,7 +42,7 @@ public class InsertionIntuition {
 
         printData("Actual array : ", A);
         size = insert(A, size, index, element);
-        printData("Expected array : ", A);
+        printData("Updated array : ", A);
         sc.close();
 
     }

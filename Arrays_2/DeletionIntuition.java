@@ -39,7 +39,7 @@ public class DeletionIntuition {
         index = findIndex(A, size, element);
         printData("Actual array : ", A);
         size = deletion(A, size, index, element);
-        printData("Expected array : ", A);
+        printData("Updated array : ", A);
         sc.close();
 
     }
