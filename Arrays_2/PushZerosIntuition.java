@@ -2,7 +2,7 @@
 public class PushZerosIntuition {
 
     public static void main(String[] args) {
-        int[] A = new int[] { 4, 0, 3, 2, 5 };
+        int[] A = new int[] { 0, 4, 0, 3, 0, 0, 2, 5 };
         int nz = 0;
         int z = 0;
         while (z <= A.length - 1) {
