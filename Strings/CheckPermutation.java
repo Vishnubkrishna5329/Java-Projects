@@ -18,7 +18,7 @@ public class CheckPermutation {
 			arr[str1.charAt(i)]+=1;
 		}
 		for(int i=0;i<str1.length();i++){
-			arr[str1.charAt(i)]-=1;
+			arr[str2.charAt(i)]-=1;
 		}
 		boolean isPermutation = true;
 
