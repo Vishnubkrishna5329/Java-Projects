@@ -13,6 +13,7 @@ public class CheckPermutation {
 		if(str1.length()!=str2.length()){
 			return false;
 		}
+		//ASCII characters range 
 		int[] arr = new int[128];
 		for(int i=0;i<str1.length();i++){
 			arr[str1.charAt(i)]+=1;
@@ -28,4 +29,10 @@ public class CheckPermutation {
 		}
 		return isPermutation;
 	}
+
+// 	In total, there are 256 ASCII characters, and can be broadly divided into three categories:
+
+// ASCII control characters (0-31 and 127)
+// ASCII printable characters (32-126) (most commonly referred to)
+// Extended ASCII characters (128-255)
 }

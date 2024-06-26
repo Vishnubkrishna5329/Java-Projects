@@ -11,7 +11,7 @@ public class HighOccuranceCharacter {
 		}
 		for(int i=0;i<str.length();i++){
 			if(arr[str.charAt(i)]==maxFreq){
-				ch =str.charAt(i);
+				ch = str.charAt(i);
 			}
 		}
 		System.out.println(ch);
