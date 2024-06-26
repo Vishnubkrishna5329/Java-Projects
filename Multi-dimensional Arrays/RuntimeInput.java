@@ -26,7 +26,7 @@ public class RuntimeInput {
             }
             System.out.println();
         }
-
+        sc.close();
 
     }
 }
